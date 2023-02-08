@@ -1,0 +1,73 @@
+
+body {
+    margin:0 auto;
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: aquamarine;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+input {
+    background-color: blue;
+    color: hotpink;
+    width: 100%;
+    border: 2px solid lawngreen;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+}
+
+input:focus {
+    border-color: crimson;
+}
+
+.btn,
+.btn-add,
+.btn-edit,
+.btn-delete {
+    text-decoration: none;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-add {
+    background-color: darkgreen;
+    color: lightcoral;
+}
+
+.btn-delete {
+    background-color: red;
+    color: black;
+}
+
+.btn-logout {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    color: darkred;
+    background-color: aqua;
+}
+
+.btn-logout:hover {
+    background-color: darkblue;
+    color: lightpink;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table > thead > tr > th {
+    text-align: left;
+    background-color: black;
+    color:aqua;
+    padding: 0.5rem 0.5rem;
+}
